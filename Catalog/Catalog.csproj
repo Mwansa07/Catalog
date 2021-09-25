@@ -12,6 +12,8 @@
     <None Remove="Swashbuckle.AspNetCore" />
     <None Remove="Dtos\" />
     <None Remove="Extensions\" />
+    <None Remove="MongoDB.Driver" />
+    <None Remove="Settings\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -19,9 +21,11 @@
     <Folder Include="Repositories\" />
     <Folder Include="Dtos\" />
     <Folder Include="Extensions\" />
+    <Folder Include="Settings\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.2.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.1" />
+    <PackageReference Include="MongoDB.Driver" Version="2.13.1" />
   </ItemGroup>
 </Project>
